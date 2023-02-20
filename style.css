@@ -12,7 +12,7 @@ body {
 h1 {
   color: white;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 button {
@@ -31,7 +31,7 @@ button {
 
 
 .shake {
-  top: 20%;
+  top: 22%;
   left: 45.5%;
 } 
 

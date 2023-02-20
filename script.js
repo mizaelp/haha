@@ -9,7 +9,7 @@ const animateMove = (element, prop, pixels) =>
     delay: function(el, i) { return i * 1; },
   });
 
-["mouseover", "click"].forEach(function (el) {
+["mouseover", "click", "touchstart", "touchend", "touchcancel", "touchmove"].forEach(function (el) {
   button.addEventListener(el, function (event) {
     const top = getRandomNumber(window.innerHeight - this.offsetHeight);
     const left = getRandomNumber(window.innerWidth - this.offsetWidth);

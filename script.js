@@ -5,7 +5,8 @@ const animateMove = (element, prop, pixels) =>
   anime({
     targets: element,
     [prop]: `${pixels}px`,
-    easing: "easeOutCirc"
+    easing: "easeOutCirc",
+    delay: function(el, i) { return i * 1; },
   });
 
 ["mouseover", "click"].forEach(function (el) {

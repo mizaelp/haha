@@ -15,7 +15,7 @@ h1 {
   font-size: 2rem;
 }
 
-button {
+#runaway-btn {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -31,12 +31,22 @@ button {
 
 
 .shake {
-  top: 22%;
-  left: 26%;
+  position: absolute;
+  margin: auto;
+  inset: 0;
+  top: -50%;
+  height: 4rem;
+  width: 10rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 5px black;
+  background-color: white;
 } 
 
 .shake:hover {
   cursor: pointer;
+  background-color: silver;
 }
 
 img {
